@@ -15,7 +15,7 @@ class UserModel extends Model
 		$curl = curl_init();
 
 		curl_setopt_array($curl, array(
-			CURLOPT_URL => "http://api.ipstack.com/" . $ip . "?access_key=1658f359a1cb48d6db7785ef8460e103",
+			CURLOPT_URL => "http://api.ipstack.com/" . $ip . "?access_key=YOURKEY",
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_TIMEOUT => 30,
 			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
@@ -43,7 +43,7 @@ class UserModel extends Model
 		$curl = curl_init();
 
 		curl_setopt_array($curl, array(
-			CURLOPT_URL => "https://maps.googleapis.com/maps/api/geocode/json?latlng=" . $latitude . "," . $longitude . "&key=AIzaSyB4Ply4txa36YmO0XJdu3OzWVaWgsh-bEw",
+			CURLOPT_URL => "https://maps.googleapis.com/maps/api/geocode/json?latlng=" . $latitude . "," . $longitude . "&key=YOURKEY",
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_TIMEOUT => 30,
 			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,

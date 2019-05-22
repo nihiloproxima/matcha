@@ -41,7 +41,7 @@ class AddressModel extends Model
 
     public function get_distance($pos1, $pos2)
     {
-        $req = "https://maps.googleapis.com/maps/api/distancematrix/json?units=kms&origins=" . $pos1['lat'] . "," . $pos1['long'] . "&destinations=" . $pos2['lat'] . "," . $pos2['long'] . "&key=AIzaSyB4Ply4txa36YmO0XJdu3OzWVaWgsh-bEw";
+        $req = "https://maps.googleapis.com/maps/api/distancematrix/json?units=kms&origins=" . $pos1['lat'] . "," . $pos1['long'] . "&destinations=" . $pos2['lat'] . "," . $pos2['long'] . "&key=YOURKEY";
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
