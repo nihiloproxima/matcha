@@ -2,10 +2,11 @@ Starting project :
 
 Run theses commands :
 
-`composer install && cd Api/ && npm install`
+`sh setup.sh`
 
-Then don't forget to run api like so :
-`cd Api/ && npm start`
+Then don't forget to go to ```http://localhost/config/setup``` to create your tables.
 
-To generate activity, uncomment a line in Api/server.js
-Some goes for users generation and score calculation
+You'll also need to fill api keys in ```Models/AdressModel.php``` and ```Models/UserModel``` to make location work properly,
+aswell as putting your google credentials in ```client_credentials.json``` for OAuth authentication...
+
+To generate activity, uncomment lines 49 and 50 in Api/server.js
