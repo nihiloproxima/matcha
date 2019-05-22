@@ -1,0 +1,16 @@
+.select2-selection__choice {
+	color: #2E404D;
+}
+
+.select2-results__option {
+	color: #F5F8FA;
+	background: #2E404D;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+	color: black;
+}
+
+.select2-selection, .select2-selection--multiple {
+	background-color: #26333E !important;
+}
