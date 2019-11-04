@@ -1,3 +1,5 @@
+PHP Project. Custom MVC framework
+
 Starting project :
 
 Run theses commands :
