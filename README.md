@@ -1,4 +1,4 @@
-PHP Project. Custom MVC framework
+**PHP Project. Custom MVC framework**
 
 Starting project :
 
